@@ -10,7 +10,7 @@ window.onload = function () {
   })
   var inputELE = document.getElementsByTagName('input')[0]
   inputELE.style.display = 'none'
-  song = loadSound('/top-goblin/audio/1.mp3')
+  song = loadSound('audio/1.mp3')
   img = loadImage(
     'https://images.unsplash.com/photo-1642455512074-e99118a44e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80'
   )
